@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — HM Consulting</title>
+  <meta name="description" content="HM Consulting is built on the belief that homeowners deserve a genuine partner—not just a contractor. Learn about our approach, values, and commitment to quality." />
+  <meta name="theme-color" content="#2D2926" />
+  <link rel="canonical" href="https://hmhomeconsulting.com/about.html" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    /* ── About-page-specific additions ── */
+    .team-principle {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 2rem;
+      border-left: 3px solid var(--sand-dark);
+      transition: border-color var(--transition);
+    }
+    .team-principle:hover { border-color: var(--terra); }
+    .team-principle__number {
+      font-family: var(--font-serif);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      color: var(--terra);
+      text-transform: uppercase;
+    }
+    .team-principle h4 { font-size: 1.05rem; color: var(--charcoal); }
+    .team-principle p  { font-size: 0.875rem; }
+
+    .commitment-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--sand-dark);
+      border: 1px solid var(--sand-dark);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin-top: 3.5rem;
+    }
+    .commitment-item {
+      background: var(--cream-dark);
+      padding: 2.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .commitment-item__icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      background: var(--sand);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .commitment-item__icon svg {
+      width: 20px;
+      height: 20px;
+      stroke: var(--terra);
+      fill: none;
+      stroke-width: 1.5;
+    }
+    .commitment-item h4 { font-size: 1rem; color: var(--charcoal); }
+    .commitment-item p  { font-size: 0.875rem; }
+
+    @media (max-width: 768px) {
+      .commitment-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVIGATION ══ -->
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="HM Consulting — Home">
+        <span class="nav__logo-mark">HM</span>
+        <span class="nav__logo-sub">Consulting</span>
+      </a>
+      <div class="nav__links" role="list">
+        <a href="index.html"    role="listitem">Home</a>
+        <a href="services.html" role="listitem">Services</a>
+        <a href="about.html"    role="listitem" class="active">About</a>
+        <a href="contact.html"  role="listitem">Contact</a>
+      </div>
+      <a href="contact.html" class="btn btn-outline nav__cta">Get in Touch</a>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <div class="nav__mobile-contact">
+      <a href="mailto:hmhomerepairsolutions@gmail.com">hmhomerepairsolutions@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════ PAGE HERO ══ -->
+  <section class="page-hero">
+    <div class="page-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80');" role="img" aria-hidden="true"></div>
+    <div class="container page-hero__content">
+      <span class="section-label">About Us</span>
+      <h1>A different kind of home services firm</h1>
+      <p>
+        We built HM Consulting around a simple idea: homeowners deserve honest advice and
+        deliberate workmanship, not just a crew with a clipboard.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ STORY / MISSION ══ -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="about-grid fade-up">
+
+        <div class="about-grid__content">
+          <span class="section-label">Our Foundation</span>
+          <h2>Built on the conviction that your home deserves better.</h2>
+          <p>
+            HM Consulting was established with a clear purpose: to offer homeowners a level of
+            service that combines genuine technical expertise with the kind of honest, thoughtful
+            counsel you'd expect from a trusted advisor—not just a vendor.
+          </p>
+          <p>
+            Too often, home service companies approach projects with a predetermined outcome.
+            We approach every engagement the opposite way: listen carefully, assess fully, then
+            recommend only what's actually warranted. That philosophy shapes everything we do,
+            from the smallest repair to a ground-up build.
+          </p>
+          <p>
+            Our team brings deep experience across roofing, remodeling, restoration, and
+            specialized services like ozone remediation—capabilities that allow us to handle
+            complex, multi-phase projects without hand-offs to unvetted subcontractors.
+          </p>
+        </div>
+
+        <div class="about-grid__image">
+          <img
+            src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
+            alt="Premium residential interior with warm lighting and refined finishes"
+            loading="lazy"
+          />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PRINCIPLES ══ -->
+  <section class="section section--dark">
+    <div class="container">
+
+      <div style="max-width:560px; margin-bottom:3.5rem;" class="fade-up">
+        <span class="section-label">How We Think</span>
+        <h2>Principles that guide every project</h2>
+        <p style="margin-top:1rem;">
+          These aren't marketing language. They're the standards our team holds
+          itself to on every job, regardless of scope or budget.
+        </p>
+      </div>
+
+      <div class="principles-grid fade-up fade-up-delay-1">
+
+        <div class="team-principle">
+          <span class="team-principle__number">01</span>
+          <h4>Listen Before You Recommend</h4>
+          <p>
+            Every project begins with questions, not proposals. We need to understand your goals,
+            your timeline, and your concerns before we can give you honest guidance on what's
+            actually needed.
+          </p>
+        </div>
+
+        <div class="team-principle">
+          <span class="team-principle__number">02</span>
+          <h4>Find the Root Cause</h4>
+          <p>
+            Surface repairs that ignore underlying conditions are expensive over time. We diagnose
+            before we prescribe, and we tell you what we find—including things you might prefer not
+            to hear, because knowing is always better than not knowing.
+          </p>
+        </div>
+
+        <div class="team-principle">
+          <span class="team-principle__number">03</span>
+          <h4>Recommend What's Warranted</h4>
+          <p>
+            We won't push unnecessary work. Our goal is to give you an accurate picture of what
+            your home needs now, what can wait, and what constitutes a smart investment versus
+            an upsell. Your trust is worth more to us than any single invoice.
+          </p>
+        </div>
+
+        <div class="team-principle">
+          <span class="team-principle__number">04</span>
+          <h4>Execute Without Shortcuts</h4>
+          <p>
+            Our craftsmen follow the same standards on a $500 repair as on a $50,000 renovation.
+            Workmanship isn't situational—it's a professional standard. If a detail isn't right,
+            we address it before the job is closed.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ OUR TEAM ETHOS ══ -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="about-grid about-grid--reverse fade-up">
+
+        <div class="about-grid__content">
+          <span class="section-label">Our Team</span>
+          <h2>Specialists, not generalists wearing every hat.</h2>
+          <p>
+            The breadth of services we offer is possible because our team includes genuine
+            specialists in each discipline—roofing crews with dedicated experience, restoration
+            technicians with remediation training, remodeling tradespeople who have spent careers
+            in their craft.
+          </p>
+          <p>
+            We also maintain capabilities that most firms don't, including professional ozone
+            remediation equipment and trained operators. When a project calls for that level of
+            treatment, it's available through HM Consulting directly—not through a third-party
+            referral with no quality accountability.
+          </p>
+          <p>
+            What unifies the team is a shared standard: the work is either done right or it
+            isn't done. There's no middle ground on that.
+          </p>
+        </div>
+
+        <div class="about-grid__image">
+          <img
+            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80"
+            alt="Professional craftsman at work on a precise interior installation"
+            loading="lazy"
+          />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ VALUES GRID ══ -->
+  <section class="section section--dark">
+    <div class="container">
+
+      <div style="text-align:center; max-width:540px; margin:0 auto 4rem;" class="fade-up">
+        <span class="section-label">Our Values</span>
+        <h2>What we stand for</h2>
+      </div>
+
+      <div class="values-grid fade-up fade-up-delay-1">
+
+        <div class="value-item">
+          <div class="value-item__number">I</div>
+          <h4>Integrity</h4>
+          <p>We tell you what your home actually needs, not what generates the largest invoice. Honest assessments, always.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-item__number">II</div>
+          <h4>Precision</h4>
+          <p>Every repair, renovation, and restoration is approached with methodical attention. We don't guess; we measure, assess, and verify.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-item__number">III</div>
+          <h4>Transparency</h4>
+          <p>Clear communication from the first conversation through project completion. Scope, cost, and timeline—defined upfront, maintained throughout.</p>
+        </div>
+
+        <div class="value-item">
+          <div class="value-item__number">IV</div>
+          <h4>Expertise</h4>
+          <p>Genuine technical depth across every service we offer, including specialized capabilities like ozone remediation that most firms can't provide.</p>
+        </div>
+
+      </div>
+
+      <!-- Commitment items -->
+      <div class="commitment-grid fade-up">
+
+        <div class="commitment-item">
+          <div class="commitment-item__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Licensed &amp; Fully Insured</h4>
+          <p>Every project is covered. Our team operates with full licensing and carries the insurance our clients deserve.</p>
+        </div>
+
+        <div class="commitment-item">
+          <div class="commitment-item__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h4>Defined Timelines</h4>
+          <p>We commit to schedules and communicate proactively when anything changes. Your time is not less valuable than ours.</p>
+        </div>
+
+        <div class="commitment-item">
+          <div class="commitment-item__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h4>Direct Communication</h4>
+          <p>You'll always know who is working on your home and who to contact with questions. No runaround, no handoffs to strangers.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CTA STRIP ══ -->
+  <section class="cta-strip">
+    <div class="container--narrow">
+      <h2 class="fade-up">Let's start with a conversation.</h2>
+      <p class="fade-up fade-up-delay-1">
+        Tell us about your home and what you're working on. We'll listen carefully
+        and give you our honest assessment of what's involved.
+      </p>
+      <div class="cta-strip__actions fade-up fade-up-delay-2">
+        <a href="contact.html" class="btn btn-outline-cream">
+          Contact Us
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
+        </a>
+        <a href="services.html" class="btn btn-outline-cream">View Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ══ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo">
+            <span class="nav__logo-mark">HM</span>
+            <span class="nav__logo-sub">Consulting</span>
+          </a>
+          <p>Premium home repair, restoration, and remodeling services. A consultative approach that prioritizes lasting quality over quick fixes.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html#roofing">Roofing</a></li>
+            <li><a href="services.html#remodeling">Remodeling</a></li>
+            <li><a href="services.html#restoration">Restoration</a></li>
+            <li><a href="services.html#construction">New Construction</a></li>
+            <li><a href="services.html#repairs">General Repairs</a></li>
+            <li><a href="services.html#ozone">Ozone Remediation</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Get in Touch</h5>
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:hmhomerepairsolutions@gmail.com">hmhomerepairsolutions@gmail.com</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.6 3.38 2 2 0 0 1 3.57 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span style="color:rgba(255,255,255,.4);font-size:.875rem;">Phone — coming soon</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 HM Consulting. All rights reserved.</span>
+        <div class="footer__legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
