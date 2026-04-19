@@ -111,25 +111,4 @@
     });
   });
 
-  /* ── Stats counter animation ── */
-  const stats = document.querySelectorAll('.stat-item__number[data-target]');
-  if (stats.length) {
-    const statObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        const el = entry.target;
-        const target = parseInt(el.dataset.target, 10);
-        const suffix = el.dataset.suffix || '';
-        let current = 0;
-        const step = Math.ceil(target / 60);
-        const timer = setInterval(() => {
-          current = Math.min(current + step, target);
-          el.textContent = current + suffix;
-          if (current >= target) clearInterval(timer);
-        }, 25);
-        statObserver.unobserve(el);
-      });
-    }, { threshold: 0.5 });
-    stats.forEach(s => statObserver.observe(s));
-  }
 })();

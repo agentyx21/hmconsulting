@@ -1038,11 +1038,11 @@ p {
   margin-bottom: 0.4rem;
 }
 .stat-item__label {
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.45);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: rgba(255,255,255,0.4);
+  line-height: 1.5;
 }
 
 /* ── Footer ──────────────────────────────────────────────── */
@@ -1186,10 +1186,9 @@ p {
   .about-grid--reverse .about-grid__image { order: 0; }
   .contact-layout { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
-  .stats-bar__inner { grid-template-columns: repeat(2, 1fr); }
-  .stat-item:nth-child(2) { border-right: none; }
-  .stat-item { border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1.2rem; }
-  .stat-item:nth-child(3), .stat-item:nth-child(4) { border-bottom: none; }
+  .stats-bar__inner { grid-template-columns: 1fr !important; }
+  .stat-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 1.2rem; }
+  .stat-item:last-child { border-bottom: none; }
   .footer__inner { grid-template-columns: 1fr; gap: 2.5rem; }
   .services-grid { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
