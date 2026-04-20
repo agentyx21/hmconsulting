@@ -1,465 +1,654 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services — HM Consulting</title>
-  <meta name="description" content="HM Consulting offers roofing, remodeling, water and fire restoration, new construction, general repairs, and specialized ozone remediation services." />
-  <meta name="theme-color" content="#2D2926" />
-  <link rel="canonical" href="https://hmhomeconsulting.com/services.html" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-
-  <!-- ═══════════════════════════════ NAVIGATION ══ -->
-  <nav class="nav" id="nav" aria-label="Main navigation">
-    <div class="nav__inner">
-      <a href="index.html" class="nav__logo" aria-label="HM Consulting — Home">
-        <span class="nav__logo-mark">HM</span>
-        <span class="nav__logo-sub">Consulting</span>
-      </a>
-      <div class="nav__links" role="list">
-        <a href="index.html"    role="listitem">Home</a>
-        <a href="services.html" role="listitem" class="active">Services</a>
-        <a href="about.html"    role="listitem">About</a>
-        <a href="contact.html"  role="listitem">Contact</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services — HM Consulting</title>
+    <meta
+      name="description"
+      content="HM Consulting offers roofing, remodeling, water and fire restoration, new construction, general repairs, and specialized ozone remediation services."
+    />
+    <meta name="theme-color" content="#2D2926" />
+    <link rel="canonical" href="https://hmhomeconsulting.com/services.html" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ═══════════════════════════════ NAVIGATION ══ -->
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a
+          href="index.html"
+          class="nav__logo"
+          aria-label="HM Consulting — Home"
+        >
+          <span class="nav__logo-mark">HM</span>
+          <span class="nav__logo-sub">Consulting</span>
+        </a>
+        <div class="nav__links" role="list">
+          <a href="index.html" role="listitem">Home</a>
+          <a href="services.html" role="listitem" class="active">Services</a>
+          <a href="about.html" role="listitem">About</a>
+          <a href="contact.html" role="listitem">Contact</a>
+        </div>
+        <a href="contact.html" class="btn btn-outline nav__cta">Get in Touch</a>
+        <button
+          class="nav__toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
       </div>
-      <a href="contact.html" class="btn btn-outline nav__cta">Get in Touch</a>
-      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="nav__mobile" role="dialog" aria-modal="true" aria-label="Mobile navigation">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <div class="nav__mobile-contact">
-      <a href="mailto:hmhomerepairsolutions@gmail.com">hmhomerepairsolutions@gmail.com</a>
-    </div>
-  </div>
-
-  <!-- ═══════════════════════════════ PAGE HERO ══ -->
-  <section class="page-hero">
-    <div class="page-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80');" role="img" aria-hidden="true"></div>
-    <div class="container page-hero__content">
-      <span class="section-label">Our Services</span>
-      <h1>Expert services for every home need</h1>
-      <p>
-        From a single repair to a full-scale restoration, each service is delivered with the same
-        methodical care and consultative approach.
-      </p>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════ SERVICES INTRO ══ -->
-  <section class="section--sm section--cream">
-    <div class="container--narrow" style="text-align:center;">
-      <p style="font-size:1.1rem; color:var(--charcoal);">
-        Jump to a service:&ensp;
-        <a href="#roofing"      style="color:var(--terra); font-weight:500;">Roofing</a> &middot;
-        <a href="#remodeling"   style="color:var(--terra); font-weight:500;">Remodeling</a> &middot;
-        <a href="#restoration"  style="color:var(--terra); font-weight:500;">Restoration</a> &middot;
-        <a href="#construction" style="color:var(--terra); font-weight:500;">New Construction</a> &middot;
-        <a href="#repairs"      style="color:var(--terra); font-weight:500;">General Repairs</a> &middot;
-        <a href="#ozone"        style="color:var(--terra); font-weight:500;">Ozone Remediation</a>
-      </p>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- ═══════════════════════════════ ROOFING ══ -->
-  <section class="section section--cream" id="roofing">
-    <div class="container">
-      <div class="service-detail fade-up">
-
-        <div class="service-detail__content">
-          <span class="section-label">Roofing</span>
-          <h2>Protection from the top down</h2>
-          <p>
-            Your roof is your home's first line of defense. Whether you're dealing with an active
-            leak, approaching end-of-life materials, or simply want a professional inspection before
-            a major weather season, our roofing team brings thorough diagnostics and precise
-            craftsmanship to every job.
-          </p>
-          <p>
-            We work with asphalt shingles, architectural shingles, flat roof systems, and metal
-            roofing—recommending the right material for your home's design, climate exposure, and
-            long-term maintenance goals.
-          </p>
-
-          <ul class="service-detail__list">
-            <li>Full roof replacement and re-roofing</li>
-            <li>Targeted leak repair and emergency patching</li>
-            <li>Comprehensive roof inspection and condition reporting</li>
-            <li>Gutter installation, repair, and cleaning</li>
-            <li>Flat and low-slope roofing systems</li>
-            <li>Flashing, ventilation, and underlayment work</li>
-            <li>Storm damage assessment and repair</li>
-          </ul>
-
-          <a href="contact.html" class="btn btn-primary">
-            Discuss Your Roofing Project
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
-          </a>
-        </div>
-
-        <div class="service-detail__image">
-          <img
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80"
-            alt="Residential roofing work in progress"
-            loading="lazy"
-          />
-        </div>
-
+    <div
+      class="nav__mobile"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Mobile navigation"
+    >
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <div class="nav__mobile-contact">
+        <a href="mailto:hmhomerepairsolutions@gmail.com"
+          >hmhomerepairsolutions@gmail.com</a
+        >
       </div>
     </div>
-  </section>
 
-  <hr class="divider" />
-
-  <!-- ═══════════════════════════════ REMODELING ══ -->
-  <section class="section section--cream" id="remodeling">
-    <div class="container">
-      <div class="service-detail service-detail--alt fade-up">
-
-        <div class="service-detail__image">
-          <img
-            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80"
-            alt="Modern kitchen remodel with warm finishes"
-            loading="lazy"
-          />
-        </div>
-
-        <div class="service-detail__content">
-          <span class="section-label">Remodeling</span>
-          <h2>Spaces designed around how you live</h2>
-          <p>
-            Remodeling is more than cosmetic—it's an investment in how you experience your home
-            every day. Our approach begins with understanding how you use each space before a single
-            recommendation is made. We don't push trendy finishes; we guide you toward choices that
-            will serve you well for years.
-          </p>
-          <p>
-            From kitchen gut-renovations to basement build-outs, our team manages the full scope:
-            design input, permitting coordination, skilled trades, and final finish work.
-          </p>
-
-          <ul class="service-detail__list">
-            <li>Kitchen renovation and layout redesign</li>
-            <li>Full bathroom remodels and spa conversions</li>
-            <li>Basement finishing and living space creation</li>
-            <li>Home additions and room expansions</li>
-            <li>Flooring — hardwood, tile, LVP, and carpet</li>
-            <li>Deck and outdoor living area construction</li>
-            <li>Interior painting and trim work</li>
-          </ul>
-
-          <a href="contact.html" class="btn btn-primary">
-            Discuss Your Remodeling Project
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
-          </a>
-        </div>
-
+    <!-- ═══════════════════════════════ PAGE HERO ══ -->
+    <section class="page-hero">
+      <div
+        class="page-hero__bg"
+        style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80&quot;);
+        "
+        role="img"
+        aria-hidden="true"
+      ></div>
+      <div class="container page-hero__content">
+        <span class="section-label">Our Services</span>
+        <h1>Expert services for every home need</h1>
+        <p>
+          From a single repair to a full-scale restoration, each service is
+          delivered with the same methodical care and consultative approach.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <hr class="divider" />
-
-  <!-- ═══════════════════════════════ RESTORATION ══ -->
-  <section class="section section--cream" id="restoration">
-    <div class="container">
-      <div class="service-detail fade-up">
-
-        <div class="service-detail__content">
-          <span class="section-label">Restoration</span>
-          <h2>Recovering what matters, completely</h2>
-          <p>
-            Restoration after water, fire, or smoke damage demands more than surface repair—it
-            requires understanding the full extent of structural and material compromise before any
-            work begins. Our restoration team is trained to identify what's hidden behind walls,
-            under floors, and inside structural cavities.
-          </p>
-          <p>
-            We coordinate every phase of recovery: emergency stabilization, demolition of compromised
-            materials, drying and remediation, structural repair, and full cosmetic restoration. You
-            work with one team from start to finish.
-          </p>
-
-          <ul class="service-detail__list">
-            <li>Water damage mitigation and structural drying</li>
-            <li>Fire and smoke damage repair</li>
-            <li>Mold assessment, containment, and remediation</li>
-            <li>Storm and wind damage recovery</li>
-            <li>Structural rebuilding after major loss events</li>
-            <li>Documentation of completed work provided upon request</li>
-            <li>Post-remediation ozone odor treatment (see below)</li>
-          </ul>
-
-          <a href="contact.html" class="btn btn-primary">
-            Discuss Your Restoration Needs
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
-          </a>
-        </div>
-
-        <div class="service-detail__image">
-          <img
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80"
-            alt="Restoration team assessing structural damage"
-            loading="lazy"
-          />
-        </div>
-
+    <!-- ═══════════════════════════════ SERVICES INTRO ══ -->
+    <section class="section--sm section--cream">
+      <div class="container--narrow" style="text-align: center">
+        <p style="font-size: 1.1rem; color: var(--charcoal)">
+          Jump to a service:&ensp;
+          <a href="#roofing" style="color: var(--terra); font-weight: 500"
+            >Roofing</a
+          >
+          &middot;
+          <a href="#remodeling" style="color: var(--terra); font-weight: 500"
+            >Remodeling</a
+          >
+          &middot;
+          <a href="#restoration" style="color: var(--terra); font-weight: 500"
+            >Restoration</a
+          >
+          &middot;
+          <a href="#construction" style="color: var(--terra); font-weight: 500"
+            >New Construction</a
+          >
+          &middot;
+          <a href="#repairs" style="color: var(--terra); font-weight: 500"
+            >General Repairs</a
+          >
+          &middot;
+          <a href="#ozone" style="color: var(--terra); font-weight: 500"
+            >Ozone Remediation</a
+          >
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <hr class="divider" />
+    <hr class="divider" />
 
-  <!-- ═══════════════════════════════ NEW CONSTRUCTION ══ -->
-  <section class="section section--cream" id="construction">
-    <div class="container">
-      <div class="service-detail service-detail--alt fade-up">
-
-        <div class="service-detail__image">
-          <img
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80"
-            alt="New residential construction framing"
-            loading="lazy"
-          />
-        </div>
-
-        <div class="service-detail__content">
-          <span class="section-label">New Construction</span>
-          <h2>Building from the ground up, with intention</h2>
-          <p>
-            HM Consulting brings the same consultative philosophy to new construction that defines
-            our renovation work. We don't just build to spec—we ask the right questions before
-            breaking ground to ensure the finished home reflects how you actually intend to live
-            in it.
-          </p>
-          <p>
-            From site preparation through final certificate of occupancy, our team manages
-            coordination, subcontractors, and quality control at every phase.
-          </p>
-
-          <ul class="service-detail__list">
-            <li>Custom residential home construction</li>
-            <li>Site clearing, grading, and preparation</li>
-            <li>Foundation work and concrete</li>
-            <li>Framing, roofing, and enclosure</li>
-            <li>Mechanical, electrical, and plumbing rough-in</li>
-            <li>Insulation, drywall, and interior finishes</li>
-            <li>Final inspections and punch-list completion</li>
-          </ul>
-
-          <a href="contact.html" class="btn btn-primary">
-            Discuss Your Build
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- ═══════════════════════════════ GENERAL REPAIRS ══ -->
-  <section class="section section--cream" id="repairs">
-    <div class="container">
-      <div class="service-detail fade-up">
-
-        <div class="service-detail__content">
-          <span class="section-label">General Repairs</span>
-          <h2>No project too modest for our standard</h2>
-          <p>
-            Deferred maintenance compounds. A small repair addressed promptly rarely becomes a
-            large one. Our general repair services are delivered with the same craftsmanship and
-            diagnostic rigor as our major projects—we don't treat small jobs as afterthoughts.
-          </p>
-          <p>
-            Whether it's a door that won't latch, a section of damaged drywall, a persistent
-            plumbing fixture issue, or a worn threshold, we address it correctly the first time.
-          </p>
-
-          <ul class="service-detail__list">
-            <li>Drywall repair, patching, and finishing</li>
-            <li>Door, window, and trim carpentry</li>
-            <li>Plumbing fixture repair and replacement</li>
-            <li>Interior and exterior painting</li>
-            <li>Tile repair and grout restoration</li>
-            <li>Weather stripping and energy sealing</li>
-            <li>General carpentry and millwork</li>
-          </ul>
-
-          <a href="contact.html" class="btn btn-primary">
-            Schedule a Repair
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
-          </a>
-        </div>
-
-        <div class="service-detail__image">
-          <img
-            src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=900&q=80"
-            alt="Craftsman performing careful interior repair work"
-            loading="lazy"
-          />
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════ OZONE REMEDIATION (SPECIALTY) ══ -->
-  <section class="section section--dark" id="ozone">
-    <div class="container">
-      <div class="ozone-feature fade-up">
-        <div class="ozone-feature__grid">
-
-          <div>
-            <span class="service-card__badge" style="margin-bottom:1rem;">Specialty Service</span>
-            <span class="section-label">Ozone Remediation</span>
-            <h2>Odor elimination at the molecular level</h2>
+    <!-- ═══════════════════════════════ ROOFING ══ -->
+    <section class="section section--cream" id="roofing">
+      <div class="container">
+        <div class="service-detail fade-up">
+          <div class="service-detail__content">
+            <span class="section-label">Roofing</span>
+            <h2>Protection from the top down</h2>
             <p>
-              Most contractors can clean a surface. Very few can truly eliminate the odors that
-              penetrate building materials, HVAC systems, and structural cavities. Ozone remediation
-              is that capability—and it's one of the most effective tools available for restoring
-              air quality in a home after a damaging event.
+              Your roof is your home's first line of defense. Whether you're
+              dealing with an active leak, approaching end-of-life materials, or
+              simply want a professional inspection before a major weather
+              season, our roofing team brings thorough diagnostics and precise
+              craftsmanship to every job.
             </p>
             <p>
-              HM Consulting operates professional-grade ozone generation equipment, deployed under
-              controlled conditions with proper safety protocols. This is a specialty service that
-              most residential and restoration contractors simply don't offer.
+              We work with asphalt shingles, architectural shingles, flat roof
+              systems, and metal roofing—recommending the right material for
+              your home's design, climate exposure, and long-term maintenance
+              goals.
             </p>
-            <a href="contact.html" class="btn btn-outline-cream" style="margin-top:0.5rem;">
-              Inquire About Ozone Treatment
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
+
+            <ul class="service-detail__list">
+              <li>Full roof replacement and re-roofing</li>
+              <li>Targeted leak repair and emergency patching</li>
+              <li>Comprehensive roof inspection and condition reporting</li>
+              <li>Gutter installation, repair, and cleaning</li>
+              <li>Flat and low-slope roofing systems</li>
+              <li>Flashing, ventilation, and underlayment work</li>
+              <li>Storm damage assessment and repair</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              Discuss Your Roofing Project
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <line x1="3" y1="8" x2="13" y2="8" />
+                <polyline points="9,4 13,8 9,12" />
+              </svg>
             </a>
           </div>
 
-          <div>
-            <h4 style="color:rgba(255,255,255,.5); font-size:.72rem; letter-spacing:.18em; text-transform:uppercase; margin-bottom:1.2rem; font-family:var(--font-sans);">Applications</h4>
-            <div class="ozone-feature__uses">
+          <div class="service-detail__image">
+            <img
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80"
+              alt="Residential roofing work in progress"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <div class="ozone-use-item">
-                <h4>Smoke &amp; Fire Odor</h4>
-                <p>Penetrates porous materials that surface cleaning can't reach, neutralizing smoke compounds at the molecular level.</p>
+    <hr class="divider" />
+
+    <!-- ═══════════════════════════════ REMODELING ══ -->
+    <section class="section section--cream" id="remodeling">
+      <div class="container">
+        <div class="service-detail service-detail--alt fade-up">
+          <div class="service-detail__image">
+            <img
+              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80"
+              alt="Modern kitchen remodel with warm finishes"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="service-detail__content">
+            <span class="section-label">Remodeling</span>
+            <h2>Spaces designed around how you live</h2>
+            <p>
+              Remodeling is more than cosmetic—it's an investment in how you
+              experience your home every day. Our approach begins with
+              understanding how you use each space before a single
+              recommendation is made. We don't push trendy finishes; we guide
+              you toward choices that will serve you well for years.
+            </p>
+            <p>
+              From kitchen gut-renovations to basement build-outs, our team
+              manages the full scope: design input, permitting coordination,
+              skilled trades, and final finish work.
+            </p>
+
+            <ul class="service-detail__list">
+              <li>Kitchen renovation and layout redesign</li>
+              <li>Full bathroom remodels and spa conversions</li>
+              <li>Basement finishing and living space creation</li>
+              <li>Home additions and room expansions</li>
+              <li>Flooring — hardwood, tile, LVP, and carpet</li>
+              <li>Deck and outdoor living area construction</li>
+              <li>Interior painting and trim work</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              Discuss Your Remodeling Project
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <line x1="3" y1="8" x2="13" y2="8" />
+                <polyline points="9,4 13,8 9,12" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ═══════════════════════════════ RESTORATION ══ -->
+    <section class="section section--cream" id="restoration">
+      <div class="container">
+        <div class="service-detail fade-up">
+          <div class="service-detail__content">
+            <span class="section-label">Restoration</span>
+            <h2>Recovering what matters, completely</h2>
+            <p>
+              Restoration after water, fire, or smoke damage demands more than
+              surface repair—it requires understanding the full extent of
+              structural and material compromise before any work begins. Our
+              restoration team is trained to identify what's hidden behind
+              walls, under floors, and inside structural cavities.
+            </p>
+            <p>
+              We coordinate every phase of recovery: emergency stabilization,
+              demolition of compromised materials, drying and remediation,
+              structural repair, and full cosmetic restoration. You work with
+              one team from start to finish.
+            </p>
+
+            <ul class="service-detail__list">
+              <li>Water damage mitigation and structural drying</li>
+              <li>Fire and smoke damage repair</li>
+              <li>Mold assessment, containment, and remediation</li>
+              <li>Storm and wind damage recovery</li>
+              <li>Structural rebuilding after major loss events</li>
+              <li>Documentation of completed work provided upon request</li>
+              <li>Post-remediation ozone odor treatment (see below)</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              Discuss Your Restoration Needs
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <line x1="3" y1="8" x2="13" y2="8" />
+                <polyline points="9,4 13,8 9,12" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="service-detail__image">
+            <img
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80"
+              alt="Restoration team assessing structural damage"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ═══════════════════════════════ NEW CONSTRUCTION ══ -->
+    <section class="section section--cream" id="construction">
+      <div class="container">
+        <div class="service-detail service-detail--alt fade-up">
+          <div class="service-detail__image">
+            <img
+              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80"
+              alt="New residential construction framing"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="service-detail__content">
+            <span class="section-label">New Construction</span>
+            <h2>Building from the ground up, with intention</h2>
+            <p>
+              HM Consulting brings the same consultative philosophy to new
+              construction that defines our renovation work. We don't just build
+              to spec—we ask the right questions before breaking ground to
+              ensure the finished home reflects how you actually intend to live
+              in it.
+            </p>
+            <p>
+              From site preparation through final certificate of occupancy, our
+              team manages coordination, subcontractors, and quality control at
+              every phase.
+            </p>
+
+            <ul class="service-detail__list">
+              <li>Custom residential home construction</li>
+              <li>Site clearing, grading, and preparation</li>
+              <li>Foundation work and concrete</li>
+              <li>Framing, roofing, and enclosure</li>
+              <li>Mechanical, electrical, and plumbing rough-in</li>
+              <li>Insulation, drywall, and interior finishes</li>
+              <li>Final inspections and punch-list completion</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              Discuss Your Build
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <line x1="3" y1="8" x2="13" y2="8" />
+                <polyline points="9,4 13,8 9,12" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- ═══════════════════════════════ GENERAL REPAIRS ══ -->
+    <section class="section section--cream" id="repairs">
+      <div class="container">
+        <div class="service-detail fade-up">
+          <div class="service-detail__content">
+            <span class="section-label">General Repairs</span>
+            <h2>No project too modest for our standard</h2>
+            <p>
+              Deferred maintenance compounds. A small repair addressed promptly
+              rarely becomes a large one. Our general repair services are
+              delivered with the same craftsmanship and diagnostic rigor as our
+              major projects—we don't treat small jobs as afterthoughts.
+            </p>
+            <p>
+              Whether it's a door that won't latch, a section of damaged
+              drywall, a persistent plumbing fixture issue, or a worn threshold,
+              we address it correctly the first time.
+            </p>
+
+            <ul class="service-detail__list">
+              <li>Drywall repair, patching, and finishing</li>
+              <li>Door, window, and trim carpentry</li>
+              <li>Plumbing fixture repair and replacement</li>
+              <li>Interior and exterior painting</li>
+              <li>Tile repair and grout restoration</li>
+              <li>Weather stripping and energy sealing</li>
+              <li>General carpentry and millwork</li>
+            </ul>
+
+            <a href="contact.html" class="btn btn-primary">
+              Schedule a Repair
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <line x1="3" y1="8" x2="13" y2="8" />
+                <polyline points="9,4 13,8 9,12" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="service-detail__image">
+            <img
+              src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=900&q=80"
+              alt="Craftsman performing careful interior repair work"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ OZONE REMEDIATION (SPECIALTY) ══ -->
+    <section class="section section--dark" id="ozone">
+      <div class="container">
+        <div class="ozone-feature fade-up">
+          <div class="ozone-feature__grid">
+            <div>
+              <span class="service-card__badge" style="margin-bottom: 1rem"
+                >Specialty Service</span
+              >
+              <span class="section-label">Ozone Remediation</span>
+              <h2>Odor elimination at the molecular level</h2>
+              <p>
+                Most contractors can clean a surface. Very few can truly
+                eliminate the odors that penetrate building materials, HVAC
+                systems, and structural cavities. Ozone remediation is that
+                capability—and it's one of the most effective tools available
+                for restoring air quality in a home after a damaging event.
+              </p>
+              <p>
+                HM Consulting operates professional-grade ozone generation
+                equipment, deployed under controlled conditions with proper
+                safety protocols. This is a specialty service that most
+                residential and restoration contractors simply don't offer.
+              </p>
+              <a
+                href="contact.html"
+                class="btn btn-outline-cream"
+                style="margin-top: 0.5rem"
+              >
+                Inquire About Ozone Treatment
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="3" y1="8" x2="13" y2="8" />
+                  <polyline points="9,4 13,8 9,12" />
+                </svg>
+              </a>
+            </div>
+
+            <div>
+              <h4
+                style="
+                  color: rgba(255, 255, 255, 0.5);
+                  font-size: 0.72rem;
+                  letter-spacing: 0.18em;
+                  text-transform: uppercase;
+                  margin-bottom: 1.2rem;
+                  font-family: var(--font-sans);
+                "
+              >
+                Applications
+              </h4>
+              <div class="ozone-feature__uses">
+                <div class="ozone-use-item">
+                  <h4>Smoke &amp; Fire Odor</h4>
+                  <p>
+                    Penetrates porous materials that surface cleaning can't
+                    reach, neutralizing smoke compounds at the molecular level.
+                  </p>
+                </div>
+
+                <div class="ozone-use-item">
+                  <h4>Pet Odor</h4>
+                  <p>
+                    Eliminates deep-set pet odors from subfloor, insulation, and
+                    wall cavities that persist after cosmetic repairs.
+                  </p>
+                </div>
+
+                <div class="ozone-use-item">
+                  <h4>Mold &amp; Mildew</h4>
+                  <p>
+                    Used after mold remediation to treat residual musty odors
+                    and reduce lingering spore activity in treated areas.
+                  </p>
+                </div>
+
+                <div class="ozone-use-item">
+                  <h4>Biohazard Post-Remediation</h4>
+                  <p>
+                    A critical final step after biohazard cleanup to ensure full
+                    odor neutralization before a space is reoccupied.
+                  </p>
+                </div>
+
+                <div class="ozone-use-item">
+                  <h4>Water Damage</h4>
+                  <p>
+                    Addresses the stale, damp odors that remain after structural
+                    drying is complete but before finishing work begins.
+                  </p>
+                </div>
+
+                <div class="ozone-use-item">
+                  <h4>Pre-Sale Preparation</h4>
+                  <p>
+                    A discreet, effective option for homeowners wanting to
+                    present a fresh, odor-free home before listing.
+                  </p>
+                </div>
               </div>
+              <!-- /ozone-feature__uses -->
 
-              <div class="ozone-use-item">
-                <h4>Pet Odor</h4>
-                <p>Eliminates deep-set pet odors from subfloor, insulation, and wall cavities that persist after cosmetic repairs.</p>
-              </div>
+              <p
+                style="
+                  color: rgba(255, 255, 255, 0.4);
+                  font-size: 0.82rem;
+                  margin-top: 1.5rem;
+                  line-height: 1.65;
+                "
+              >
+                Ozone treatments are performed with all occupants—including pets
+                and plants—removed from the treatment area. Proper ventilation
+                and re-entry timing are managed by our team.
+              </p>
+            </div>
+          </div>
+          <!-- /ozone-feature__grid -->
+        </div>
+        <!-- /ozone-feature -->
+      </div>
+    </section>
 
-              <div class="ozone-use-item">
-                <h4>Mold &amp; Mildew</h4>
-                <p>Used after mold remediation to treat residual musty odors and reduce lingering spore activity in treated areas.</p>
-              </div>
+    <!-- ═══════════════════════════════ CTA STRIP ══ -->
+    <section class="cta-strip">
+      <div class="container--narrow">
+        <h2 class="fade-up">Not sure which service you need?</h2>
+        <p class="fade-up fade-up-delay-1">
+          Start with a conversation. Describe what you're experiencing and we'll
+          help you understand what's actually involved before anything is
+          scheduled.
+        </p>
+        <div class="cta-strip__actions fade-up fade-up-delay-2">
+          <a href="contact.html" class="btn btn-outline-cream">
+            Contact Us
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="3" y1="8" x2="13" y2="8" />
+              <polyline points="9,4 13,8 9,12" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
 
-              <div class="ozone-use-item">
-                <h4>Biohazard Post-Remediation</h4>
-                <p>A critical final step after biohazard cleanup to ensure full odor neutralization before a space is reoccupied.</p>
-              </div>
-
-              <div class="ozone-use-item">
-                <h4>Water Damage</h4>
-                <p>Addresses the stale, damp odors that remain after structural drying is complete but before finishing work begins.</p>
-              </div>
-
-              <div class="ozone-use-item">
-                <h4>Pre-Sale Preparation</h4>
-                <p>A discreet, effective option for homeowners wanting to present a fresh, odor-free home before listing.</p>
-              </div>
-
-            </div><!-- /ozone-feature__uses -->
-
-            <p style="color:rgba(255,255,255,.4); font-size:.82rem; margin-top:1.5rem; line-height:1.65;">
-              Ozone treatments are performed with all occupants—including pets and plants—removed from
-              the treatment area. Proper ventilation and re-entry timing are managed by our team.
+    <!-- ═══════════════════════════════ FOOTER ══ -->
+    <footer class="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__brand">
+            <a href="index.html" class="nav__logo">
+              <span class="nav__logo-mark">HM</span>
+              <span class="nav__logo-sub">Consulting</span>
+            </a>
+            <p>
+              Premium home repair, restoration, and remodeling services. A
+              consultative approach that prioritizes lasting quality over quick
+              fixes.
             </p>
           </div>
-
-        </div><!-- /ozone-feature__grid -->
-      </div><!-- /ozone-feature -->
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════ CTA STRIP ══ -->
-  <section class="cta-strip">
-    <div class="container--narrow">
-      <h2 class="fade-up">Not sure which service you need?</h2>
-      <p class="fade-up fade-up-delay-1">
-        Start with a conversation. Describe what you're experiencing and we'll help you
-        understand what's actually involved before anything is scheduled.
-      </p>
-      <div class="cta-strip__actions fade-up fade-up-delay-2">
-        <a href="contact.html" class="btn btn-outline-cream">
-          Contact Us
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="8" x2="13" y2="8"/><polyline points="9,4 13,8 9,12"/></svg>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════ FOOTER ══ -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="footer__inner">
-        <div class="footer__brand">
-          <a href="index.html" class="nav__logo">
-            <span class="nav__logo-mark">HM</span>
-            <span class="nav__logo-sub">Consulting</span>
-          </a>
-          <p>Premium home repair, restoration, and remodeling services. A consultative approach that prioritizes lasting quality over quick fixes.</p>
-        </div>
-        <div class="footer__col">
-          <h5>Company</h5>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h5>Services</h5>
-          <ul>
-            <li><a href="services.html#roofing">Roofing</a></li>
-            <li><a href="services.html#remodeling">Remodeling</a></li>
-            <li><a href="services.html#restoration">Restoration</a></li>
-            <li><a href="services.html#construction">New Construction</a></li>
-            <li><a href="services.html#repairs">General Repairs</a></li>
-            <li><a href="services.html#ozone">Ozone Remediation</a></li>
-          </ul>
-        </div>
-        <div class="footer__col">
-          <h5>Get in Touch</h5>
-          <div class="footer__contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <a href="mailto:hmhomerepairsolutions@gmail.com">hmhomerepairsolutions@gmail.com</a>
+          <div class="footer__col">
+            <h5>Company</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
           </div>
-          <div class="footer__contact-item">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.6 3.38 2 2 0 0 1 3.57 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span style="color:rgba(255,255,255,.4);font-size:.875rem;">Phone — coming soon</span>
+          <div class="footer__col">
+            <h5>Services</h5>
+            <ul>
+              <li><a href="services.html#roofing">Roofing</a></li>
+              <li><a href="services.html#remodeling">Remodeling</a></li>
+              <li><a href="services.html#restoration">Restoration</a></li>
+              <li><a href="services.html#construction">New Construction</a></li>
+              <li><a href="services.html#repairs">General Repairs</a></li>
+              <li><a href="services.html#ozone">Ozone Remediation</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h5>Get in Touch</h5>
+            <div class="footer__contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <a href="mailto:hmhomerepairsolutions@gmail.com"
+                >hmhomerepairsolutions@gmail.com</a
+              >
+            </div>
+            <div class="footer__contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.6 3.38 2 2 0 0 1 3.57 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+              <span style="color: rgba(255, 255, 255, 0.4); font-size: 0.875rem"
+                ><a href="tel:+12029109365" aria-label="Call us"
+                  >(202) 910-9365</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span>&copy; 2026 HM Consulting. All rights reserved.</span>
+          <div class="footer__legal">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
           </div>
         </div>
       </div>
-      <div class="footer__bottom">
-        <span>&copy; 2026 HM Consulting. All rights reserved.</span>
-        <div class="footer__legal">
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="terms.html">Terms of Service</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
