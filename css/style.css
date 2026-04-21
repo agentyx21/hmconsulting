@@ -229,7 +229,7 @@ p {
 .nav__logo {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 6px;
   line-height: 1;
 }
 .nav__logo-mark {
