@@ -1,5 +1,5 @@
 /* ============================================================
-   HM Consulting — Design System & Stylesheet
+   HM Home Solutions — Design System & Stylesheet
    Palette: Terracotta + Off-white + Charcoal
    Fonts: Fraunces (serif headings) + Inter (sans body)
    ============================================================ */
@@ -249,7 +249,6 @@ p {
   color: var(--charcoal-lt);
   line-height: 1;
 }
-
 /* Nav links */
 .nav__links {
   display: flex;
@@ -358,8 +357,7 @@ p {
 .nav--hero .nav__cta {
   color: var(--white);
 }
-.nav--hero .nav__logo-sub { color: rgba(255,255,255,0.65); }
-.nav--hero .nav__links a::after { background: var(--white); }
+.nav--hero .nav__logo-sub { color: rgba(255,255,255,0.65); }.nav--hero .nav__links a::after { background: var(--white); }
 .nav--hero .nav__cta {
   border-color: rgba(255,255,255,0.6);
 }
@@ -1061,8 +1059,7 @@ p {
 }
 
 .footer__brand .nav__logo-mark { color: var(--terra-lt); }
-.footer__brand .nav__logo-sub  { color: rgba(255,255,255,0.35); }
-.footer__brand p {
+.footer__brand .nav__logo-sub  { color: rgba(255,255,255,0.35); }.footer__brand p {
   font-size: 0.875rem;
   color: rgba(255,255,255,0.5);
   margin-top: 1.2rem;

@@ -1,5 +1,5 @@
 /* ============================================================
-   HM Consulting — Main JavaScript
+   HM Home Solutions — Main JavaScript
    ============================================================ */
 
 (function () {
