@@ -942,6 +942,20 @@ p {
 .contact-detail__value a { transition: color var(--transition); }
 .contact-detail__value a:hover { color: var(--terra); }
 
+.area-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.area-list li {
+  padding: 0.35rem 0.8rem;
+  font-size: 0.85rem;
+  background: var(--white);
+  border: 1px solid var(--sand);
+  border-radius: 999px;
+}
+
 /* Form */
 .contact-form-wrap {
   background: var(--white);
